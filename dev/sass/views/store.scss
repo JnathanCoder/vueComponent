@@ -1,0 +1,42 @@
+/************** store-edit ***************/
+// 标题样式
+.subhead-tit{
+	height: 44px;
+    line-height: 44px;
+    background-color: #F5F5F5;
+    margin: 20px;
+    padding-left: 20px;
+    h3{
+    	font-size: 18px;
+    	font-weight: bold;
+    }
+}
+#tip {
+        position: absolute;right: 22px;top: 22px;
+        border: 1px solid #d2d6de;padding: 6px;
+        border-radius: 2px;
+        font-size: 12px;
+        background: #fff;
+    }
+.box-footer{
+	text-align: center;
+}
+
+// 提示信息
+.has-error{
+	position: relative;
+}
+.error-mandatory-msg{
+	color: #F44336;
+	line-height: 22px;
+    display: inline-block;
+    position: absolute;
+	i{
+		color: #F44336;
+		vertical-align: middle;
+    	margin-right: 10px;
+	}
+}
+.error-msg{
+    color: #F44336;
+}

@@ -1,0 +1,42 @@
+/************** member-manage ***************/
+// // table布局
+// .table-auto{
+// 	display: table;
+// 	white-space: nowrap;
+// 	border-spacing: 0;
+// 	.row-auto{
+// 		display: table-row;
+// 	}
+// 	.col-auto{
+// 		display: table-cell;
+// 		padding-right: 20px;
+
+// 	}
+// }
+// 缩进
+.retract{
+	margin: 20px;
+}
+.retract-padd{
+	padding: 20px;
+}
+// 添加/设置/查询按钮布局
+.btn-cells{
+	@extend .row;
+	.btn-cell-left,.btn-cell-right{
+		@extend .col;
+	}
+	.btn-cell-right{
+		text-align: right;
+	}
+}
+.full-width input{
+	width: 100%;
+}
+
+// 滚动条样式
+// ::-webkit-scrollbar { width: 14px; padding: 0 1px;}
+// ::-webkit-scrollbar-track { background-color:#f5f5f5; }
+// ::-webkit-scrollbar-thumb { background-color: #C8C8C8; border-radius: 10px; border:3px solid #f5f5f5;}
+// ::-webkit-scrollbar-thumb:hover { background-color: #999 }
+// ::-webkit-scrollbar-thumb:active { background-color: #999 }

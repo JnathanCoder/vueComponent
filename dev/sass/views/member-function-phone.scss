@@ -1,0 +1,449 @@
+  /* 卡片 */
+    .card{
+        height: 190px;       
+        border-radius: 8px;
+        /*padding: 11px;*/
+        color: #fff;
+        background: #0E1144;
+        position: relative;
+        .front-top{
+          padding: 11px;
+          position:relative;
+          img{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: 1px solid #fff;
+            margin-right: 11px;
+          }
+          .opacity50{opacity:0.5;font-size:14px}
+          .merchant-name{font-size:18px;height:25px;line-height:25px;margin-bottom:7px}
+          .phone{
+            font-size: 14px;
+            padding:5px 0px 10px 10px;
+          }
+        }
+        .front-bottom{
+          position: absolute;
+          bottom: 0px;
+          width: 100%;
+          box-sizing: border-box;
+          font-size: 14px;
+          padding:0px 15px 15px 16px;
+          .left .col{
+            opacity: 0.5;
+          }
+          .ml7{
+            margin-left: 7px;
+          }
+          .mb20{
+            margin-bottom: 20px;
+          }
+          .member-qr{
+            text-align: right;
+            padding-left:20px;
+            p{
+              font-size: 12px;
+              opacity: 0.5;
+              margin-bottom: 7px;
+            }
+            i{
+              font-size: 40px;
+            }
+          }
+        }
+        
+        .card-bg{
+          width: 100%;
+          position: absolute;
+        }
+        
+        
+    }
+  /* home主体内容 */
+  .home-warp{
+    padding: 0 11px 20px;
+    font-size: 12px;
+    &.bg-ef{background:#e9ecee}
+    .txtr{text-align:right}
+    .w-60{width:60px}
+    /* 签到 */
+    .qiandao{
+      padding: 14px 0;
+    }
+    .see-privilege{
+      padding: 14px 0;
+      text-align: center;
+    }
+    
+    /* 红包入口 */
+    .hongbao-enter{
+      margin: 20px 0 25px;
+        text-align: center;
+        font-size: 14px;
+        .hb-icon{
+          color: #F14F4A;
+        }
+    }
+    
+    
+    
+  }
+
+  /* 红包活动展示 */
+    .hb-show{
+    	  height: 44px;
+		  background: #fff;
+		  border-radius: 4px;
+		  align-items: center;
+		  padding: 0 11px;
+		  color: #FF2E2E;
+		  box-sizing: border-box;
+		  margin: 24px 0px 14px;
+        img{
+          width: 31px;
+          height: 42px;
+          margin-top: -12px;
+        }
+        .title{
+        font-size: 14px;
+        text-align: center;
+        }
+        .title,i{
+          color: #FF2E2E;
+        }
+    }
+
+  .activity-lists-empty{
+    padding: 68px 15px 0;
+      text-align: center; 
+       p {
+        color: #b9b9b9;
+        font-size:14px;
+        margin-bottom:17px;
+          i{
+            font-size: 40px;
+            
+          }
+        }
+  }
+
+  /* 券列表 */
+    .quan{
+    	position: relative;
+  		margin-bottom: 14px; 
+      .priceshow{
+          position:relative;
+          margin-bottom: 5px;
+           .priceicon{
+            position: absolute;
+            top:-10px;
+            right:1px;
+            font-size:12px;
+          }
+           .pricebig{
+            font-size: 30px;height:30px;line-height:30px;
+            //letter-spacing:-10px;
+             i{
+              font-size: 30px;
+              color:inherit;
+              //letter-spacing:-10px;
+            }
+          }
+           .pricebigzk1{
+            font-size: 30px;height:30px;line-height:30px;
+             i{
+              font-size: 30px;
+              color:inherit;
+              //letter-spacing:-16px;
+            }
+          }
+           .pricesmall{
+            font-size: 15px;
+           // letter-spacing:-4px;
+             i{
+              font-size: 15px;
+              color:inherit;
+              //letter-spacing:-4px;
+            }
+          }
+
+        }
+      /* 小标 */
+      .scale{
+          display: inline-flex;
+        position: absolute;z-index: 1;top: -5px;left: 11px;
+        .status{
+            color: #fff;
+            padding: 0 5px;
+        }
+        .triangle-bottomleft{
+          width: 0;
+            height: 0;
+            border-bottom: 5px solid;
+            border-right: 5px solid transparent;  
+        }
+      }
+      /* 预告 */
+      .scale-yg{
+        .status{
+          background: #94CB6A;
+        }
+        .triangle-bottomleft{
+          border-bottom-color: #6DA146;
+        }
+      }
+      /* 进行中 */
+      .scale-ing{
+        .status{
+          background: #FF3B3B;
+        }
+        .triangle-bottomleft{
+          border-bottom-color: #D42727;
+        }
+      }
+      /* 已结束 */
+      .scale-over{
+        .status{
+          background: #C7C7C7;
+        }
+        .triangle-bottomleft{
+          border-bottom-color: #949494;
+        }
+      }
+      .quan-list{
+        height: 80px;
+          background: #fff;
+          border-radius: 4px;
+          overflow: hidden;
+
+          .left{
+            padding: 23px 0 11px 11px;
+            width: 50%;
+            p{
+              overflow: hidden;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+              color:#4a4a4a;
+            }
+            /* 处理icon数字 */
+            .sum{
+              display: inline-flex;
+              color: #C7C7C7;
+              align-items: flex-end;
+              position: relative;
+              i{
+              color:inherit;
+              }
+              .large i{
+                font-size: 30px;
+                margin-left: -6px;
+                margin-right: -7px;
+              }
+              .small i{
+                margin-right: -5px;
+              }
+              .icon-money{
+                position: absolute;
+                right: 0;
+                top: -6px;
+              }
+
+            }
+          }
+          .dot-h{
+            -webkit-writing-mode: vertical-rl;   
+            -ms-writing-mode: vertical-rl;    
+            writing-mode: vertical-rl;
+            *writing-mode: tb-rl;
+            position: absolute;
+            left: 2px;
+            top: -6px;
+            color: #e5e5e5;
+            font-size: 30px;
+            height: 24px;
+            line-height: 0;
+            z-index: 2;
+
+          }
+          .right{
+            position: relative;
+            width: 65px;
+            text-align: center;
+            background: #C7C7C7;
+            color: #fff;
+            height:80px;
+          position:relative;
+
+            p{
+              margin: 16px 0 6px;
+            }
+            i{
+              color: #fff;
+            font-size: 27px;
+            }
+          }
+      }
+
+      //背景颜色
+      &.quan-back-dj {
+        .quan-list .right{
+          @extend .quan-back-dj1;
+        }
+          
+        }
+        &.quan-back-zk {
+          .quan-list .right{
+          @extend .quan-back-zk1;
+        }
+          
+        }
+        &.quan-back-jf {
+          .quan-list .right{
+          @extend .quan-back-jf1;
+        }
+          
+        }
+        &.quan-back-cz {
+          .quan-list .right{
+          @extend .quan-back-cz1;
+        }
+          
+        }
+
+
+      //背景状态颜色
+        &.quan-statu-keepon {
+          //背景颜色
+        .status{
+          //@extend .quan-statu-orange;
+          background-color: #ff3b3b;
+        }
+        //三角颜色
+        .triangle-bottomleft{
+          //@extend .quan-caret-orange
+          border-bottom-color: #8c0f2a;
+         }
+          
+        }
+        &.quan-statu-yesend  {
+          .status{
+          //@extend .quan-statu-gray ;
+          background-color: #c7c7c7; 
+        }
+         .triangle-bottomleft{
+          //@extend .quan-caret-gray
+          border-bottom-color: #949494;
+         }
+          
+        }
+        &.quan-statu-nobegin{
+          .status{
+          //@extend .quan-statu-green；
+          background-color: #94CB6A; 
+        }
+         .triangle-bottomleft{
+          //@extend .quan-caret-green
+          border-bottom-color: #51712C; 
+         }
+        }
+    
+
+    }
+
+    /* 签到弹框 */
+    .sign-in-dialog {
+        padding-top: 27px;
+        width: 160px;
+        height: 133px;
+        background-color: #fff;
+        border-radius: 2px;
+        text-align: center;
+        position: fixed;
+        z-index: 5000;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        box-shadow: 0px 1px 30px rgba(0, 0, 0, 0.2); 
+         i {
+          font-size: 44px;
+          color: #52BD6C; }
+         h3 {
+          margin-top: 18px;
+          margin-bottom: 6px;
+          font-size: 14px; }
+         p {
+          font-size: 14px; }
+        }
+
+
+          /*弹出层*/
+      .share-dialog
+      {
+          position: fixed;
+          z-index: 13;
+          width: 85%;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          background-color: #fafafc;
+          text-align: center;
+          border-radius: 3px;
+          overflow: hidden;
+          &.share-dialogz-index{
+              z-index:10001;
+          }
+          .share-dialog-top{
+            margin-top:15px;
+            .title{font-size:15px}
+          }
+           .share-dialog-middle{
+              padding: 15px 20px;
+              font-size: 15px;
+              color: #888;
+              word-wrap: break-word;
+              word-break: break-all;
+               .fc-blue{color: #2B8EF3 !important; }
+          }
+          
+           .share-dialog-bottom{
+              position: relative;
+              line-height: 42px;
+              font-size: 17px;
+              display: -webkit-box;
+              display: -webkit-flex;
+              display: -ms-flexbox;
+              display: flex;
+              &:after{
+                  content: " ";
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 1px;
+                border-top: 1px solid #d5d5d6;
+                color: #d5d5d6;
+                -webkit-transform-origin: 0 0;
+                transform-origin: 0 0;
+                -webkit-transform: scaleY(0.5);
+                transform: scaleY(0.5); 
+              }
+               a{
+                  display: block;
+                -webkit-box-flex: 1;
+                -webkit-flex: 1;
+                -ms-flex: 1;
+                flex: 1;
+                color: #3cc51f;
+                text-decoration: none;
+                -webkit-tap-highlight-color: transparent;
+              }
+          }
+           .bg-default {background-color: #FAFAFA;}
+           .fc-dark-gray {color: #4A4A4A; }
+      }
+
+      
+  

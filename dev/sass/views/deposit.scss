@@ -1,0 +1,75 @@
+/************** deposit-rules-list ***************/
+// 变量
+$num-mian:20px;
+
+// 外层容器
+.outer-content{
+	border: 1px solid nth($grays,1);
+	background-color: #fff;
+}
+.main-box{
+	margin: $num-mian;
+	& .mr20{
+		margin-right: 20px;
+	}
+}
+
+// 规则设置
+
+.rules-lists {
+    margin-top: $num-mian;
+    margin-bottom: $num-mian;
+}
+.text-cer {
+	text-align: center;
+	margin-bottom: 100px;
+	a{
+    	color: nth($darks,3);
+	}
+}
+
+/************** deposit-new ***************/
+.area-right{
+	padding: 0 20px;
+}
+.input-cells-fill{
+	width: 100%;
+}
+.vertical-align{
+        vertical-align: text-bottom;
+}
+
+.textarea{
+	@extend .input;
+	height: 100px;
+}
+
+
+.next-step{
+	margin-bottom: 50px;
+}
+
+// 右侧间隔
+.interval-right{
+	padding-right: 20px;
+}
+.interval-left{
+    padding-left: 20px;
+}
+.interval-row{
+	margin-bottom: 20px;
+}
+.interval-cell{
+	margin-bottom: 30px;
+}
+
+// 添加删除按钮样式
+.btn-add{
+	color: #4CAF50;
+	line-height: 36px;
+	// padding-left: 10px;
+}
+.btn-remove{
+	color: #F44336;
+	line-height: 36px;
+}

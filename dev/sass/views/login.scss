@@ -1,0 +1,133 @@
+.login{
+	.login-top{
+		height: 438px;
+		.w1000{
+			padding-top: 110px;
+			text-align: right;
+		}
+		.login-box{
+			display: inline-block;
+			width: 320px;
+			.login-box-body {
+			    background: #fff;
+			    padding: 20px;
+			    .login-box-msg{
+					margin-bottom: 20px;
+					height: 30px;
+					line-height: 30px;
+					text-align: left;
+					font-size: 18px;
+					.login-error{
+						color: #F44336;
+						background-color: rgba(244,67,54,.2);
+						font-size: 13px;
+						padding: 0 10px;
+					}
+				}
+				.has-feedfront{
+					position: relative;
+					.icon{
+						position: absolute;
+					    left: 20px;
+					    line-height: 34px;
+					}
+					input{
+						padding-left: 50px;
+					}
+				}
+			}
+		}
+	}
+	.login-center,.w1000{
+		width: 1000px;
+		margin: 0 auto;
+	}
+	.login-bottom{
+		background: #f4f4f4;
+		height: 50px;
+		line-height:50px;
+		.pull-left{
+			a,span{
+				display: inline-block;
+				font-size: 13px;
+				color: #666;
+			}
+			span{
+				font-size: 14px;
+				margin: 0 15px;
+			}
+		}
+		.pull-right{
+			img{
+				vertical-align: middle;
+			}
+		}
+	}
+}
+/* 顶部提示信息条样式 js:iTip*/
+    .interact-tip {
+    text-align:center;
+    width:300px;
+    z-index:1999999;
+    position:fixed;
+    _position:absolute;
+    top:50px;
+    right:20px;
+    margin: 0 auto;
+    color:#FFF;
+    font-size:12px;
+    font-weight:bold;
+    font-family:微软雅黑;
+    opacity: 0.6;
+}
+.interact-tip .inner {
+    display:inline-block;
+    *zoom:1;
+    *display:inline;
+    width:300px;
+    padding:20px 0;
+    -moz-border-radius:0 0 7px 5px;
+    -webkit-border-radius:0 0 7px 5px;
+    border-radius:0 0 7px 5px;
+    border-bottom: 2px solid #ddd\9;
+    position: relative;
+}
+.interact-tip .content {
+    vertical-align:middle;
+    text-align: center;
+    position: relative;
+    left:-15px;
+    display: inline-block;
+    width:240px;
+    word-break: break-all;
+}
+.interact-tip .content a {
+    background-color:#AAA;
+    background-color:rgba(0,0,0,0.15);
+    color:#FFF;
+    text-decoration:none;
+    padding:3px 18px 3px 5px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+}
+.interact-tip .blue {
+    background:#06C;
+}
+.interact-tip .closetip {
+    display:inline-block;
+    vertical-align:middle;
+    width:25px;
+    height:25px;
+    -moz-border-radius:0 0 5px 0;
+    -webkit-border-radius:0 0 5px 0;
+    border-radius:0 0 5px 0;
+    position: absolute;
+    top:10px;
+    right:10px;
+    opacity:0.6;
+    cursor:pointer;
+}
+.interact-tip .closetip span {
+    display:none;
+}

@@ -1,0 +1,67 @@
+.point-function-phone{
+    background: #f3f3f3;
+    /* 积分信息 */
+    .point-box{
+        padding: 11px;
+        background: #5BBDD5;
+        color: #fff;
+        .name{
+            font-size: 14px;
+            color: #3C95AB;
+        }
+        /* 余额 */
+        .balance{
+            margin: 30px 0 42px;
+            text-align: center;
+            position:relative;
+            .surplus{
+                position: absolute;
+                top:8px;
+                right: 38px;
+            }
+            h2{ 
+                font-size: 36px; 
+            }
+            h3{ 
+                font-size: 18px; 
+            }
+        }
+        /* 排行 */
+        .sort{
+            line-height: 14px;
+            text-align: center;
+            .i-enter{
+                color:#c8c8cd;
+            }
+        }
+    }
+    /* 积分明细入口 */
+    .list-enter{
+        height: 44px;
+        padding: 0 11px;
+        font-size: 14px;
+        background: #fff;
+    }
+    /* 获取积分表格 */
+    .article{
+        padding: 11px;
+        .title{
+            padding: 11px 0;
+            font-size: 12px;
+        }
+    }
+    .article-rule p{
+        color: #9B9B9B;
+    }
+    .article-table{
+        table{
+            width: 100%;
+            line-height: 32px;
+            background: #fff;           
+            th,td{
+                border:1px solid #979797;
+                text-align: center;
+            }
+        }
+    }
+}

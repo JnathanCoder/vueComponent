@@ -1,0 +1,19 @@
+.redbag-new{
+    .checkboxwhole {
+    border: 1px solid #efefef;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 0px 15px;
+    background: #fff;
+    }
+
+    .whole {
+    border-top: 1px dashed #efefef;
+    height:40px;
+    line-height: 40px;
+      &:first-child{
+      border-top: 0px;
+      }
+     }
+}
+

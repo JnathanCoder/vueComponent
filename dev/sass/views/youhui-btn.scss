@@ -1,0 +1,26 @@
+  %status{
+   color: #23527c;
+    border:none medium;
+   background:transparent;
+ }
+ button{
+
+outline:none;
+
+}
+ .edit{
+  color:#3c8dbc;
+  border:none medium;
+  background:transparent;
+  cursor: pointer;
+  width:38px;
+  &:hover{
+      @extend   %status
+  };
+  &:focus{
+      @extend   %status
+  };
+   &:disabled{
+    color: #c8c8c8;
+  }
+ }

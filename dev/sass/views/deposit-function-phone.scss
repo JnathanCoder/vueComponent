@@ -1,0 +1,43 @@
+.deposit-function-phone{
+    background: #f3f3f3;
+    height: 100%;
+    .stored-value-bg {
+        width: 100%;
+        background: #FFA256;
+        overflow: hidden;
+        padding: 28px 0; 
+    }
+    .stored-value {
+        display: block;
+        margin-top: 32px;
+        font-size: 36px;
+        height: 36px;
+        line-height: 36px;
+        color: #fff;
+        text-align: center; 
+    }
+    .stored-list-title {
+        background: #fff;
+        box-sizing: border-box;
+        padding: 12px 12px 11px;
+        font-size: 14px;
+        color: #4A4A4A; 
+    }
+    .stored-list {
+        margin: 18px 11px;
+        background: #fff;
+        box-sizing: border-box;
+        padding: 11px 0;
+        border-radius: 4px;
+        box-shadow: 0 1px 0 #ccc; 
+        .store-list-rule {
+            font-size: 18px;
+            font-weight: 600;
+            color: #FFA256; 
+        }
+    }
+    .stored-rule-top {
+        padding: 0 11px;
+        margin-bottom: 8px; 
+    }
+}

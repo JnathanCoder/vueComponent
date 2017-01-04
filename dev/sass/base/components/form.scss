@@ -1,0 +1,108 @@
+
+.form-ver{
+	.col.label{
+		@extend .row;
+		text-align: left;
+	}
+	.deposit-right-auto{
+		max-width:640px;
+    	min-width:440px;
+	}
+}
+.control-group-warpper{
+	.control-group,.control-group-auto{
+		margin-bottom: 30px;
+	}
+}
+.control-group{
+    @extend .row;
+    @extend %control-group;
+}
+.control-group-auto{
+    @extend .row-auto;
+    @extend %control-group;
+}
+    
+%control-group{
+    
+    .col-percent7{
+        @extend .col;
+        width:70%;
+        position:relative;
+    }
+    .col-wauto{
+        @extend .col;
+        width:auto;
+        position:relative;
+    }
+    .col-percent3{
+        @extend .col;
+        width:30%;
+        
+    }
+    .vertical-align{
+        vertical-align: middle;
+    }
+
+    .label{
+    	font-weight: bold;
+    	text-align: right;
+    	line-height: 34px;
+    }
+    .desc-msg{
+        position: absolute; 
+    }
+    .control-top{
+    	 line-height: 34px;
+         vertical-align: top;
+    }
+    .txt-color,.verify-error-color {
+      color:red; 
+    }
+
+}
+
+
+// form box
+.form-box-center {
+    min-width: 430px;
+    max-width: 900px;
+    margin: auto;
+}
+.form-bbox-center {
+    width: 880px;
+    margin: auto;
+}
+.form-lbox-center {
+    width: 1100px;
+    margin: auto;
+}
+
+.back-show-tb {
+//    box-shadow:0px 0px 5px #ccc;
+    border: 1px solid #e9e9e9;
+}
+
+.show-label{
+    color:#9c9c9c;
+    text-align: right;
+}
+.show-f-row{
+    line-height: 44px;
+}
+
+// 必填*
+.sup-red{color: red;}
+
+@media screen and (max-width: 1300px) { /*当屏幕尺寸小于600px时，应用下面的CSS样式*/
+  .form-ver{
+  	.deposit-right-auto{
+		max-width:550px;
+    	min-width:440px;
+	}
+  }
+}
+
+
+
+

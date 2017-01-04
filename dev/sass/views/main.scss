@@ -1,0 +1,248 @@
+// 外层容器
+.outer-content{
+	border: 1px solid nth($grays,1);
+	background-color: #fff;
+}
+
+.msg-error {
+	color:red;
+	 i {
+      margin-right: 10px;
+      line-height: 24px;
+      vertical-align: bottom;
+  }
+}
+/* header */
+.main-header {
+	height:50px;
+	background:#2196f3;
+	.user-info{
+		text-align: right;
+    	vertical-align: middle;
+	}
+	.user-info-name {
+		color:#fff;
+	}
+	.main-header-logo {
+		height:50px;
+	}
+}
+
+// .content-wrapper {
+// 	border: 1px solid nth($grays,1);
+// 	background-color: #fff;
+// }
+.main-crumb {
+	$height: 40px;
+	height:$height;
+	background: #fff;
+	line-height: $height;
+	padding-left:20px;
+}
+
+/* content */
+.contrl-height-min {
+	min-height: 900px;
+}
+.main-content {
+	background:nth($grays,2);
+	border-spacing: 20px;
+}
+.author-mian-content {
+	background:nth($grays,2);
+}
+.main-sidebar {
+	width:260px;
+
+	.store-info ,.sidebar-menu{
+		background: #fff;
+		border:1px solid nth($grays,1);	
+	}
+	.store-info {
+		margin-bottom:20px;	
+		padding:6px 20px; 
+	}
+	%bor-bottom {
+		border-bottom: 1px solid nth($grays,1);
+	}
+	li {
+		line-height:44px;
+		padding:0 20px;
+		&.title {
+			@extend %bor-bottom;
+			color: nth($darks,3);
+			font-weight: bold;
+			background: #fafafa;
+		}
+		&.active {
+			background: #253238;
+			a {color:#fff;}
+		}
+	}
+	a {
+		display: block;
+		color:#253238;
+		outline: 0;
+
+	}
+	.sidebar-menu-item {
+		@extend %bor-bottom;
+	}
+	.icon {	
+		padding-left:20px;	
+	}
+
+	.user-image {
+		width: 45px;height:45px;
+		vertical-align: middle;
+	}
+}
+
+/* footer */
+
+.main-footer {
+	$height:50px;
+	height:$height;
+	line-height:$height;
+	background: #fff;
+	color:nth($darks ,3);
+	a {
+		padding: 0 20px;
+		color:nth($darks ,3);
+    	display: inline-block;
+	}
+	.a-t {
+		color:nth($darks ,1);
+	}
+}
+.d-f-left {
+	float: left;
+	width: 160px;
+	text-align: right;
+}
+.d-f-right {
+	width: 720px;
+	float: left;
+}
+.pic-disp-w {
+	float: left;
+	width: 25%;
+	margin-bottom: 30px;
+}
+.pic-disp-btn{
+	float: left;
+	margin: 0 20px;
+	width: 79px;
+	height: 104px;
+	border: 1px solid #c8c8c8;
+	cursor:pointer;
+	font-size: 40px;
+	color: #ccc;
+	padding-top: 25px;
+    padding-left: 50px;
+}
+.clear-both{
+	clear:both;
+}
+.show-pic-w{
+	width: 130px;
+	height: 130px;
+  	cursor: pointer;
+ 	margin: auto;
+ 	margin-bottom: 20px;
+ 	.img-width{
+ 		width: 130px;
+ 		height: 130px;
+ 	}
+}
+.img-show-stl{
+	cursor:pointer;
+	width: 130px;
+	height: 130px;
+	margin: 20px 25px;
+	float: left;
+	.img-width{
+ 		width: 130px;
+ 		height: 130px;
+ 	}
+}
+// 表单容器水平居中
+// .box-center{
+// 	min-width: 430px;
+// 	max-width: 900px;
+// 	margin: auto;
+// }
+
+.bg-phone{
+	margin-top: 4px;
+    position: absolute;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: url(/../img/phone.svg) center /80% 80% no-repeat;
+}
+.bg-email{
+	margin-top: 4px;
+    position: absolute;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: url(/../img/email.svg) center /80% 80% no-repeat;
+}
+.bg-rf{
+	margin-top: -15px;
+    margin-left: -14px;
+    position: absolute;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url(/../img/RF.svg) center /80% 80% no-repeat;
+}
+.bg-bluetooth{
+	margin-top: -15px;
+    margin-left: -14px;
+    position: absolute;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url(/../img/blue.svg) center /80% 80% no-repeat;
+}
+.bg-ora{
+	margin-top: -15px;
+    margin-left: -14px;
+    position: absolute;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url(/../img/onlineRegisterAbility.svg) center /80% 80% no-repeat;
+}
+.bg-notsupport{
+	margin-top: -15px;
+    margin-left: -14px;
+    position: absolute;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url(/../img/notsupport.svg) center /80% 80% no-repeat;
+}
+.bg-listshow{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: -7px;
+    background: url(/../img/listshow.svg) center /80% 80% no-repeat;
+}
+.bg-search {
+    position: absolute;
+    left: 50%;
+    top: 29%;
+    z-index: 99;
+    width: 34px;
+    height: 34px;
+    display: block;
+    cursor: pointer;
+    background: url(../img/search.png) center/80% 80% no-repeat;
+}
+.required{
+	color:#E53935;
+}

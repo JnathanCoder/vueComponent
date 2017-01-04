@@ -1,0 +1,34 @@
+.stepdetail {
+  margin: 0;
+  border-bottom: 1px dashed #ccc;
+  height: 48px;
+    .col{
+    padding: 0px !important; 
+    position:relative;
+       &:after{
+          content:"";
+          position:absolute;
+          left:0;
+          top:11px;
+          width:1px;
+          height: 24px;
+          background:#eee;
+       };
+       &:first-child:after{
+        width:0px
+       }
+    };
+    p{
+       line-height: 47px;
+	    height: 47px;
+	    margin-bottom: 0 !important;
+	    font-size:13px;
+	    color:#aaa;
+    };
+    span{
+      color:#000;
+      font-size:15px;
+      margin-left:20px;
+
+    }
+ }

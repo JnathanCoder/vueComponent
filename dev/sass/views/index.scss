@@ -1,0 +1,34 @@
+@import	'./main';
+//手机左右布局样式
+// @import	'./member';
+// @import	'./member-function';  //会员卡功能主页
+// @import	'./deposit';
+// @import	'./setting-base';	  //设置-》基本设置
+// @import	'./member-function-phone';	 //会员卡功能主页手机样式
+// @import	'./deposit-function-phone';  //储值卡功能主页手机样式
+
+// @import	'./checkbox';				 //开关按钮
+// @import	'./redbag-new';				 //现金红包-》新建现金红包
+
+
+// @import	'./store';
+// @import	'./youhui-info';	  //营销活动优惠券详情
+
+// 新增
+@import	'./index-style';	  //首页样式
+
+// 2016.09.14 add
+@import	'./deposit-new';	         //新建/设置储值规则
+@import	'./member-new';              //新建设置会员卡
+@import	'./point-function-phone';    //积分功能主页手机样式
+@import	'./deposit-function-phone';  //储值功能主页手机样式
+@import	'./login';					 //登录
+
+// 2016.09.22 add
+@import	'./youhui-btn';	 			 //营销按钮组
+@import	'./youhui-new';				 //营销新建样式
+@import	'./youhui-info-new';		 //营销详情新建样式
+@import	'./youhui-function-phone';	 //营销功能主页手机样式
+@import	'./member-function-phone';	 //会员卡功能主页手机样式
+@import	'./member-success-function'; //会员卡功能主页手机样式
+@import	'./redbag-new';              //新建现金红包
