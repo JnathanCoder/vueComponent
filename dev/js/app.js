@@ -21,12 +21,3 @@ routers(Vue, router)
 
 let app = Vue.extend({})
 router.start(app,'#app')
-
-Vue.http.get('./aaa', {})
-    .then(res => {
-        console.log('')
-    })
-
-
-
-
