@@ -1,5 +1,5 @@
     var config = {
-        proxy:false,
+        proxy: true,
         // mock:true
     }
 
@@ -31,7 +31,7 @@
             Vue.http.options.root = '.'
                 // 代理端口
                 // Vue.http.headers.common['DOMAIN'] = 'http://zd.dev.kashuo.net/zdcrm-ws-1.0'
-            Vue.http.headers.common['DOMAIN'] = 'http://zd.qa.kashuo.net/zdcrm-ws-1.0'
+            Vue.http.headers.common['DOMAIN'] = 'http://backend.test.kashuo.net'
                 // document.cookie='user=name'
         } else {
             Vue.http.options.root = window.config && (window.config.origin || 'http://zd.qa.kashuo.net/zdcrm-ws-1.0')

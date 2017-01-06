@@ -7,50 +7,9 @@
 		display: block;		
 	}
 }
-.table-striped table th,
-.table-striped table td {
-    text-align: center;
-}
-.table-striped table th {
-    border-top: 1px solid #e9e9e9;
-}
 
-.form-box-center-spec {
-    max-width: 950px;
-}
 
-.tips {
-    color: red;
-}
 
-/*模糊匹配*/
-.form-box-center {
-    position: relative;
-    .fuzzy-box {
-        position: absolute;
-        top: 99px;
-        z-index: 99;
-        ul.fuzzy-list {
-            width: 81%;
-            max-height: 250px;
-            box-sizing: border-box;
-            border: 1px solid #0af;
-            overflow-y: scroll;
-            li {
-                background: #fff;
-                cursor: pointer;
-                height: 25px;
-                line-height: 25px;
-                padding-left: 10px;
-            }
-            li:hover {
-                color: #fff;
-                background: #0AF;
-            }
-        }
-
-    }
-}
 
 .pr-5 {
     padding-right: 5px;
@@ -83,16 +42,7 @@
         opacity: .6;
         background: #eee;
 	}
-    .icon-add {
-        color: #4caf50;
-        line-height: 36px;
-    }
-    .icon-del {
-        color: #f44336;
-        line-height: 36px;
-        position: relative;
-        top: -2px;
-    }
+    
     .txtl {
         text-align: left;
     }
@@ -106,18 +56,8 @@
     border-right: 1px solid #e9e9e9;
 }
 
-.clear-margin {
-    margin: 0!important;
-}
 
-/* list列表无数据 */
-.nodata {
-    font-size: 22px;
-    // color: #f00;
-    a {
-        font-size: 13px;
-    }
-}
+
 
 .relative {
     position: relative;
@@ -130,59 +70,7 @@
     line-height: 12px;
     color: #c8c8c8;
 }
-.special-table{
-    margin-left:54px;
-    width:846px;
-     > tbody > tr:nth-child(1){
-        > td{
-            padding:10px 0;
-            font-weight:bold;
-            border-bottom:2px solid #808080;
-        }
-        > td:nth-child(1){
-            padding:10px 20px 10px 25px;
-        }
-    }
-    > tbody > tr{
-        height:34px;
-        line-height:34px;
-        > td:nth-child(1){
-            text-align:left;
-            width:56px;
-            padding:20px 20px 0px 25px;
-        }
-        > td:nth-child(3){
-            width:263px;
-        }
-        > td:nth-child(4){
-            width:272px;
-            > div{
-                width:186px;
-            }
-        }
-        > td:nth-child(2){
-            width:189px;
-            padding-right:20px;
-        }
-        > td {
-            padding-top:20px;
-            >label{
-                >input{
-                    text-indent:20px;
-                }
-            }
-            >div{
-                vertical-align:middle;
-                display:inline-block;
-            }        
-        }
 
-    }
-
-}
-.special-form{
-    min-width:900px;
-}
 .w-65{
     width:65px;
 }
@@ -212,15 +100,3 @@ input:disabled{
     margin: 0 auto 10px;
 }
 
-//合作伙伴
-.specialContainer > div{
-    display:inline-block !important;
-    text-align:left;
-    > label{
-        text-align:left;
-    } 
-}
-.spe-w-80-r{
-    width:80px;
-    padding-right:14px;
-}
